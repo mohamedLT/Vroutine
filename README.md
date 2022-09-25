@@ -2,6 +2,10 @@
  Vroutine is a coroutine library that allow code execution in "parallel" with the use of simple function
 # Platforms 
  the library is built on top of minicoro which support most of the popular platforms like windows linux macos and android 
+# Install
+`v install mohamedLT.vroutine` 
+ make sure that you install lazalong.minicoro
+ `v install lazalong.minicoro`
 # Why
  V does have a very good concurrency model but it only supports native threads which means having a shared variable or a variable that can be accessed from every thread can be challanging 
  
